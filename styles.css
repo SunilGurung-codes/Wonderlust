@@ -79,19 +79,35 @@ body {
 header, nav, article, footer {
     padding: 1rem;
 }
+
+
 .skip-links{
-   position: absolute;
-    left: -999px;
-    height: 0;
-    width: 0;
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    background-color: var(--sunset-orange);
+    color: var(--deep-navy);
+    padding: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    z-index: 9999;
 }
 .skip-links:focus{
     
+    position: fixed;
     top: 0;
     left: 0;
-    display: block;
-    height: auto;
     width: auto;
+    height: auto;
+    overflow: visible;
+    padding: 1rem 2rem;
+    border: 3px solid var(--deep-navy);
+    border-radius: 0 0 0.5rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    
 }
 
 
