@@ -88,7 +88,7 @@ header, nav, article, footer {
     width: 1px;
     height: 1px;
     overflow: hidden;
-    background-color: var(--sunset-orange);
+    background-color: var(--sandy-beige);
     color: var(--deep-navy);
     padding: 1rem;
     text-decoration: none;
@@ -104,7 +104,7 @@ header, nav, article, footer {
     height: auto;
     overflow: visible;
     padding: 1rem 2rem;
-    border: 3px solid var(--deep-navy);
+    border: 3px solid black;
     border-radius: 0 0 0.5rem 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     
